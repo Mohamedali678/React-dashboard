@@ -19,6 +19,23 @@
     padding: 24px;
     font-size: 22px;
 }
+
+.sidenav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav ul li .active {
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgba(173, 216, 230, 0.364);
+}
+
+ul li:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.364);
+}
 .sidenav ul {
     margin-left: 40px;
     list-style: none;
@@ -35,15 +52,16 @@
 
 
 .main {
-    transition: margin-left 0.7s;
 
     margin-left: 22%;
+    transition: margin-left 0.7s;
+
 }
 
 
 .box-parent {
     display: flex;
-    justify-content: center;
+
 }
 
 .box1 {
@@ -57,3 +75,13 @@
     
 
 }
+
+
+.parent{
+gap: 6%;
+    display: flex;
+ 
+}
+/* .parent .box-parent{
+margin-left: 12%;
+} */
